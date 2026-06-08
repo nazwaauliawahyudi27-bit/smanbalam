@@ -1,0 +1,795 @@
+/* =========================
+   RESET GLOBAL
+========================= */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color:#f1f5f9;
+    color:#0f172a;
+    overflow-x:hidden;
+}
+
+
+/* =========================
+   HEADER & NAVIGASI
+========================= */
+header{
+    background:#0c4a6e;
+    border-bottom:4px solid #38bdf8;
+    color:white;
+    padding:15px 5%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-area i{
+    font-size:26px;
+    color:#38bdf8;
+}
+
+.logo-area h1{
+    font-size:18px;
+    font-weight:700;
+    letter-spacing:0.5px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+    align-items:center;
+}
+
+nav ul li a{
+    color:#bae6fd;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:500;
+
+    display:flex;
+    align-items:center;
+    gap:6px;
+
+    padding:8px 14px;
+    border-radius:6px;
+
+    transition:0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color:white;
+    background:#0284c7;
+}
+
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero{
+    background:
+    linear-gradient(rgba(7,89,133,0.82), rgba(2,132,199,0.82)),
+    url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1400&auto=format&fit=crop');
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    padding:90px 5% 120px 5%;
+
+    text-align:center;
+    position:relative;
+}
+
+.hero h2{
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:14px;
+
+    text-shadow:0 2px 4px rgba(0,0,0,0.15);
+
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.hero p{
+    font-size:15px;
+    max-width:850px;
+
+    margin:0 auto 25px auto;
+
+    opacity:0.95;
+    line-height:1.7;
+}
+
+.btn-tour{
+    background:#ffffff;
+    color:#0369a1;
+
+    border:none;
+
+    padding:13px 30px;
+
+    font-size:14px;
+    font-weight:600;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn-tour:hover{
+    background:#bae6fd;
+    transform:translateY(-2px);
+}
+
+
+/* =========================
+   GRID BOXES
+========================= */
+.grid-boxes{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    padding:0 5%;
+
+    margin-top:-55px;
+
+    position:relative;
+    z-index:20;
+}
+
+.box{
+    padding:28px 22px;
+
+    border-radius:12px;
+
+    color:white;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 14px 25px rgba(0,0,0,0.15);
+}
+
+.box.b1{
+    background:#e11d48;
+}
+
+.box.b2{
+    background:#ea580c;
+}
+
+.box.b3{
+    background:#0d9488;
+}
+
+.box h3{
+    font-size:16px;
+    font-weight:700;
+
+    margin-bottom:10px;
+
+    text-transform:uppercase;
+}
+
+.box p{
+    font-size:12px;
+    line-height:1.6;
+    opacity:0.95;
+}
+
+
+/* =========================
+   WELCOME INFO
+========================= */
+.welcome-info{
+    background:white;
+
+    padding:45px 5%;
+
+    margin:40px 5% 0 5%;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.04);
+
+    border-left:5px solid #0284c7;
+}
+
+.welcome-info h3{
+    font-size:20px;
+    color:#0c4a6e;
+
+    font-weight:700;
+
+    margin-bottom:14px;
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.welcome-info p{
+    font-size:13.5px;
+    color:#475569;
+
+    line-height:1.7;
+
+    margin-bottom:10px;
+}
+
+.welcome-info ul{
+    list-style:none;
+    margin-top:10px;
+}
+
+.welcome-info ul li{
+    font-size:13px;
+    color:#334155;
+
+    margin-bottom:7px;
+
+    display:flex;
+    align-items:flex-start;
+    gap:8px;
+}
+
+.welcome-info ul li i{
+    color:#0284c7;
+    margin-top:4px;
+}
+
+
+/* =========================
+   CONTENT SECTION
+========================= */
+.content-section{
+    padding:50px 5% 70px 5%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.section-title h2{
+    font-size:26px;
+    color:#0f172a;
+    font-weight:700;
+}
+
+.section-title p{
+    color:#64748b;
+    font-size:13px;
+    margin-top:5px;
+}
+
+
+/* =========================
+   WEBGIS CONTAINER
+========================= */
+.webgis-container{
+    display:flex;
+
+    background:white;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.06);
+
+    border:1px solid #e2e8f0;
+
+    min-height:600px;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+.sidebar{
+    width:320px;
+
+    background:#f8fafc;
+
+    border-right:1px solid #e2e8f0;
+
+    display:flex;
+    flex-direction:column;
+
+    z-index:2;
+
+    height:600px;
+
+    overflow:hidden;
+
+}
+
+.sidebar-header{
+    padding:15px 20px;
+
+    background:#0f172a;
+    color:white;
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.sidebar-header i{
+    color:#38bdf8;
+}
+
+.sidebar-header h3{
+    font-size:14px;
+    font-weight:600;
+}
+
+.school-list{
+    list-style:none;
+
+    overflow-y:auto;
+
+    flex:1;
+
+    padding:10px;
+
+    height:100%;
+
+    max-height:520px;
+}
+
+.school-item{
+    padding:10px 12px;
+
+    border-radius:8px;
+
+    margin-bottom:8px;
+
+    cursor:pointer;
+
+    transition:0.2s;
+
+    background:white;
+
+    border:1px solid #e2e8f0;
+
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.school-item:hover{
+    background:#f0f9ff;
+    border-color:#7dd3fc;
+
+    transform:translateX(3px);
+}
+
+.school-item i{
+    color:#0284c7;
+    margin-top:2px;
+    font-size:12px;
+}
+
+.school-item .info{
+    display:flex;
+    flex-direction:column;
+}
+
+.school-item .name{
+    font-size:12.5px;
+    font-weight:600;
+    color:#1e293b;
+}
+
+.school-item .addr{
+    font-size:11px;
+    color:#64748b;
+    line-height:1.4;
+    margin-top:2px;
+}
+
+
+/* =========================
+   MAP WRAPPER
+========================= */
+.map-wrapper{
+    flex:1;
+
+    position:relative;
+
+    min-height:600px;
+
+    z-index:1;
+}
+
+
+/* =========================
+   PETA LEAFLET
+========================= */
+#map{
+    width:100%;
+    height:100%;
+
+    min-height:600px;
+
+    display:block;
+}
+
+
+/* =========================
+   FIX LEAFLET
+========================= */
+.leaflet-container{
+    width:100%;
+    height:100%;
+
+    background:#dbeafe;
+}
+
+.leaflet-control-container{
+    z-index:800;
+}
+
+
+/* =========================
+   POPUP
+========================= */
+.popup-header{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    border-bottom:1px solid #e2e8f0;
+
+    padding-bottom:6px;
+    margin-bottom:6px;
+}
+
+.popup-header i{
+    color:#0284c7;
+    font-size:14px;
+}
+
+.popup-header h4{
+    font-size:13px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.popup-body{
+    font-size:11.5px;
+    color:#475569;
+    line-height:1.5;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+footer{
+    background:#0f172a;
+
+    color:#94a3b8;
+
+    text-align:center;
+
+    padding:20px;
+
+    font-size:12px;
+
+    border-top:1px solid #1e293b;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media(max-width:992px){
+
+    .grid-boxes{
+        grid-template-columns:1fr;
+        margin-top:-20px;
+    }
+
+    .welcome-info{
+        margin:20px 5% 0 5%;
+    }
+
+    .webgis-container{
+        flex-direction:column-reverse;
+        min-height:auto;
+    }
+
+    .sidebar{
+        width:100%;
+        height:260px;
+    }
+
+    .map-wrapper{
+        height:450px;
+        min-height:450px;
+    }
+
+    #map{
+        height:100%;
+        min-height:450px;
+    }
+
+}/* =========================
+   FOTO PROFIL MAHASISWI
+========================= */
+
+.profil-header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    margin-bottom:15px;
+}
+
+.foto-profil{
+    width:75px;
+    height:75px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:4px solid #38bdf8;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+
+    transition:0.3s;
+}
+
+.foto-profil:hover{
+    transform:scale(1.05);
+}
+/* =========================
+   DIAGRAM STATISTIK
+========================= */
+
+.diagram-container{
+    background:white;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    margin-bottom:35px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+}
+
+.diagram-title{
+    font-size:22px;
+
+    font-weight:700;
+
+    color:#0c4a6e;
+
+    margin-bottom:25px;
+
+    text-align:center;
+}
+
+.diagram-bars{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.bar-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.bar-item span{
+    width:90px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    color:#1e293b;
+}
+
+.bar{
+    flex:1;
+
+    height:28px;
+
+    background:#e2e8f0;
+
+    border-radius:30px;
+
+    overflow:hidden;
+}
+
+.fill{
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #0284c7,
+        #38bdf8
+    );
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+
+    padding-right:12px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    border-radius:30px;
+
+    animation:growBar 1.2s ease;
+}
+
+/* ANIMASI */
+
+@keyframes growBar{
+    from{
+        width:0;
+    }
+}
+/* =========================
+   PROFIL PEMBUAT HEADER
+========================= */
+
+.profile-dropdown{
+    position:relative;
+}
+
+/* POPUP */
+
+.profile-popup{
+    position:absolute;
+
+    top:55px;
+    right:0;
+
+    width:260px;
+
+    background:rgb(239, 235, 235);
+
+    border-radius:14px;
+
+    padding:20px;
+
+    box-shadow:0 12px 28px rgba(0,0,0,0.15);
+
+    text-align:center;
+
+    display:none;
+
+    z-index:99999;
+
+    border:1px solid #e2e8f0;
+}
+
+/* FOTO */
+
+.profile-popup img{
+    width:90px;
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:4px solid #356e87;
+
+    margin-bottom:12px;
+}
+
+/* JUDUL */
+
+.profile-popup h4{
+    font-size:18px;
+
+    color:#034b74;
+
+    margin-bottom:10px;
+}
+
+/* TEXT */
+
+.profile-popup p{
+    font-size:13px;
+
+    color:#030b1b;
+
+    margin-bottom:6px;
+
+    line-height:1.5;
+}
+
+/* AKTIF */
+
+.profile-popup.show{
+    display:block;
+
+    animation:fadeIn 0.3s ease;
+}
+
+/* ANIMASI */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}/* =========================
+   WARNA KHUSUS PROFIL PEMBUAT
+========================= */
+
+.profile-dropdown a{
+    background:#3b558e;
+
+    color:rgb(225, 225, 232) !important;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+/* HOVER */
+
+.profile-dropdown a:hover{
+    background:#1d4ed8;
+
+    color:#ffffff !important;
+}

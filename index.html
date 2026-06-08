@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS SMAN Bandar Lampung</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h1>SENIOR HIGH SCHOOL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#peta-interaktif"><i class="fa-solid fa-map-location-dot"></i> WebGIS Peta</a></li>
+                <li>
+    <a href="#statistik-daya-tampung">
+        <i class="fa-solid fa-chart-column"></i>
+        Statistik
+    </a>
+</li>
+            </ul>
+        </nav><li class="profile-dropdown">
+
+    <a href="javascript:void(0)" id="btnProfil">
+        <i class="fa-solid fa-user"></i>
+        Profil Pembuat
+    </a>
+
+    <div class="profile-popup" id="profilePopup">
+
+        <img src="1.jpeg" alt="Foto Profil">
+
+        <h4>Nazwa Aulia Wahyudi</h4>
+
+        <p><strong>NPM:</strong> 2313034068</p>
+
+        <p><strong>Prodi:</strong> Pendidikan Geografi</p>
+
+        <p><strong>Universitas:</strong> Universitas Lampung</p>
+
+    </div>
+
+</li></ul>
+    </header>
+
+    <section class="hero">
+        <h2>SELAMAT DATANG DI PERSEBARAN SMA NEGERI BANDAR LAMPUNG</h2>
+        <p>Sistem Informasi Geografis Tata Letak dan Persebaran Spasial Sekolah Menengah Atas Negeri (SMAN) di Kota Bandar Lampung. Memudahkan visualisasi, akses informasi data, serta mendukung transparansi pemetaan infrastruktur pendidikan daerah.</p>
+        <button class="btn-tour" onclick="document.getElementById('peta-interaktif').scrollIntoView({behavior: 'smooth'})">TAKE A TOUR</button>
+    </section>
+
+    <section class="grid-boxes">
+        <div class="box b1">
+            <h3>TOTAL SMA NEGERI</h3>
+            <p>Terbaca dan terpetakan sebanyak 17 Sekolah Menengah Atas Negeri yang tersebar di wilayah administratif Kota Bandar Lampung berdasarkan data terbaru.</p>
+        </div>
+        <div class="box b2">
+            <h3>CAKUPAN WILAYAH</h3>
+            <p>Mengidentifikasi konsentrasi sebaran sekolah, di mana wilayah seperti Tanjungkarang, Kemiling, dan Sukarame menjadi klaster utama lokasi pendidikan tingkat atas.</p>
+        </div>
+        <div class="box b3">
+            <h3>SUMBER DATA</h3>
+            <p> Mengintegrasikan koordinat spasial riil dari kompilasi data spasial wilayah Kota Bandar Lampung, menjamin akurasi sebaran titik objek SMAN di setiap kecamatan.</p>
+        </div>
+    </section>
+
+    <section class="welcome-info">
+       <div class="profil-header">
+
+    <h3>
+
+    </h3>
+
+</div>
+
+
+        <h3><i class="fa-solid fa-circle-info"></i> Informasi Peta</h3>
+        <ul>
+            <li><i class="fa-solid fa-circle-chevron-right"></i> <strong>Peta Interaktif:</strong> Menampilkan sebaran 17 titik SMAN berbasis data GeoJSON asli.</li>
+            <li><i class="fa-solid fa-circle-chevron-right"></i> <strong>Sidebar Integrasi:</strong> Klik daftar sekolah pada list sebelah kiri, maka peta akan otomatis bergerak (*flyTo*) ke lokasi target.</li>
+            <li><i class="fa-solid fa-circle-chevron-right"></i> <strong>Popup Atribut Data:</strong> Klik penanda titik pada peta untuk memunculkan informasi nama lengkap SMAN beserta detail alamat operasionalnya.</li>
+        </ul>
+    </section>
+    >
+
+</div>
+
+    <section class="content-section" id="peta-interaktif">
+        <div class="section-title">
+            <h2>PETA SEBARAN SPASIAL SMA NEGERI</h2>
+            <p>Gunakan kontrol navigasi untuk melakukan perbesaran atau klik daftar sekolah di panel kiri.</p>
+        </div>
+
+        <div class="webgis-container">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <i class="fa-solid fa-school"></i>
+                    <h3>Daftar SMAN (17 Sekolah)</h3>
+                </div>
+                <ul class="school-list" id="list-sekolah"></ul>
+            </div>
+            
+            <div class="map-wrapper">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+     STATISTIK DAYA TAMPUNG
+========================= -->
+
+<section class="statistik-section" id="statistik-daya-tampung"></section>
+
+    <div class="statistik-header">
+        <h2>
+            <i class="fa-solid fa-chart-column"></i>
+            Statistik Daya Tampung SMA Negeri
+        </h2>
+
+        <p>
+            Informasi kapasitas penerimaan peserta didik baru
+            SMA Negeri di Kota Bandar Lampung.
+        </p>
+    </div>
+
+    <!-- =========================
+         DIAGRAM BAR
+    ========================= -->
+
+    <div class="diagram-container">
+
+        <div class="diagram-title">
+            Diagram Daya Tampung SMA Negeri
+        </div>
+
+        <div class="diagram-bars">
+
+            <div class="bar-item">
+                <span>SMAN 1</span>
+                <div class="bar"><div class="fill" style="width:72%;">360</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 2</span>
+                <div class="bar"><div class="fill" style="width:79%;">396</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 3</span>
+                <div class="bar"><div class="fill" style="width:86%;">432</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 4</span>
+                <div class="bar"><div class="fill" style="width:70%;">350</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 5</span>
+                <div class="bar"><div class="fill" style="width:72%;">360</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 6</span>
+                <div class="bar"><div class="fill" style="width:68%;">340</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 7</span>
+                <div class="bar"><div class="fill" style="width:65%;">324</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 8</span>
+                <div class="bar"><div class="fill" style="width:74%;">370</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 9</span>
+                <div class="bar"><div class="fill" style="width:79%;">396</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 10</span>
+                <div class="bar"><div class="fill" style="width:70%;">350</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 11</span>
+                <div class="bar"><div class="fill" style="width:67%;">336</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 12</span>
+                <div class="bar"><div class="fill" style="width:75%;">375</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 13</span>
+                <div class="bar"><div class="fill" style="width:69%;">345</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 14</span>
+                <div class="bar"><div class="fill" style="width:73%;">365</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 15</span>
+                <div class="bar"><div class="fill" style="width:71%;">355</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 16</span>
+                <div class="bar"><div class="fill" style="width:68%;">340</div></div>
+            </div>
+
+            <div class="bar-item">
+                <span>SMAN 17</span>
+                <div class="bar"><div class="fill" style="width:76%;">380</div></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+</section>
+
+    <footer>
+        <p>&copy; 2026 Pemetaan Spasial SMAN Kota Bandar Lampung | UNIVERSITAS LAMPUNG</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

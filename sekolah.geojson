@@ -1,0 +1,1079 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 1 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.265324312577,
+          -5.422592155887927,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 2 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2548055377536,
+          -5.42618492596343,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 3 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2443380773981,
+          -5.419328917755356,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 4 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2700412968689,
+          -5.435544233858028,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 5 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2847925218769,
+          -5.379867419710194,
+          0
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 6 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2965880034078,
+          -5.438191116668668,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 7 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2008277863357,
+          -5.403999060924109,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 8 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2579484202413,
+          -5.4494158684019,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 9 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2486668938505,
+          -5.390293658279919,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 10 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2757421164706,
+          -5.428777175697359,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 11 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2430996664485,
+          -5.472520536673316,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 12 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.310456498265,
+          -5.375869911570098,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 13 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.256186714561,
+          -5.346840846133356,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 14 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.212624504146,
+          -5.379987896465361,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 15 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2681802682707,
+          -5.360638321124148,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 16 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2292263640676,
+          -5.402434579702363,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 17 BANDAR LAMPUNG",
+        "description": null,
+        "timestamp": null,
+        "begin": null,
+        "end": null,
+        "altitudeMode": null,
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "drawOrder": null,
+        "icon": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3248168088665,
+          -5.463241458847338,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 1 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Jend. Sudirman No.41, Rawa Laut, Tanjungkarang Timur, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.265324312577,
+          -5.422592155887927,
+          0
+        ]
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 2 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Amir Hamzah No.01, Gotong Royong, Tanjungkarang Pusat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2548055377536,
+          -5.42618492596343,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 3 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Chairil Anwar No.1, Durian Payung, Tanjungkarang Pusat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2443380773981,
+          -5.419328917755356,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 4 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Dr. Cipto Mangunkusumo No.88, Kupang Teba, Teluk Betung Utara, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2700412968689,
+          -5.435544233858028,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 5 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Soekarno Hatta, Way Dadi, Sukarame, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2847925218769,
+          -5.379867419710194,
+          0
+        ]
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 6 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Ki Agus Anang No.35, Ketapang, Panjang, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2965880034078,
+          -5.438191116668668,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 7 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Teuku Cik Ditiro No.2, Beringin Raya, Kemiling, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2008277863357,
+          -5.403999060924109,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 8 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Laksamana Malahayati No.10, Teluk Betung Selatan, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2579484202413,
+          -5.4494158684019,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 9 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Panglima Polim No.18, Segala Mider, Tanjungkarang Barat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2486668938505,
+          -5.390293658279919,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 10 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Gatot Subroto No.81, Tanjung Gading, Kedamaian, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2757421164706,
+          -5.428777175697359,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 11 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Sukamaju, Teluk Betung Timur, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2430996664485,
+          -5.472520536673316,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 12 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Hi. Endro Suratmin, Harapan Jaya, Sukarame, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.310456498265,
+          -5.375869911570098,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 13 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Padat Karya Sinar Harapan, Rajabasa Jaya, Rajabasa, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.256186714561,
+          -5.346840846133356,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 14 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Perum Bukit Kemiling Permai No.109, Kemiling Permai, Kemiling, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.212624504146,
+          -5.379987896465361,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 15 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Labuhan Dalam, Tanjung Senang, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2681802682707,
+          -5.360638321124148,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 16 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Darussalam, Susunan Baru, Tanjungkarang Barat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2292263640676,
+          -5.402434579702363,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 17 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Soekarno Hatta, Pidada, Panjang, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3248168088665,
+          -5.463241458847338,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 1 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Jend. Sudirman No.41, Rawa Laut, Tanjungkarang Timur, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.265324312577,
+          -5.422592155887927,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 2 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Amir Hamzah No.01, Gotong Royong, Tanjungkarang Pusat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2548055377536,
+          -5.42618492596343,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 3 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Chairil Anwar No.1, Durian Payung, Tanjungkarang Pusat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2443380773981,
+          -5.419328917755356,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 4 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Dr. Cipto Mangunkusumo No.88, Kupang Teba, Teluk Betung Utara, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2700412968689,
+          -5.435544233858028,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 5 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Soekarno Hatta, Way Dadi, Sukarame, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2847925218769,
+          -5.379867419710194,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 6 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Ki Agus Anang No.35, Ketapang, Panjang, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2965880034078,
+          -5.438191116668668,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 7 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Teuku Cik Ditiro No.2, Beringin Raya, Kemiling, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2008277863357,
+          -5.403999060924109,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 8 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Laksamana Malahayati No.10, Teluk Betung Selatan, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2579484202413,
+          -5.4494158684019,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 9 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Panglima Polim No.18, Segala Mider, Tanjungkarang Barat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2486668938505,
+          -5.390293658279919,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 10 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Gatot Subroto No.81, Tanjung Gading, Kedamaian, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2757421164706,
+          -5.428777175697359,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 11 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Sukamaju, Teluk Betung Timur, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2430996664485,
+          -5.472520536673316,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 12 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Hi. Endro Suratmin, Harapan Jaya, Sukarame, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.310456498265,
+          -5.375869911570098,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 13 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Padat Karya Sinar Harapan, Rajabasa Jaya, Rajabasa, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.256186714561,
+          -5.346840846133356,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 14 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Perum Bukit Kemiling Permai No.109, Kemiling Permai, Kemiling, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.212624504146,
+          -5.379987896465361,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 15 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Labuhan Dalam, Tanjung Senang, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2681802682707,
+          -5.360638321124148,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 16 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Darussalam, Susunan Baru, Tanjungkarang Barat, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2292263640676,
+          -5.402434579702363,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": null,
+        "Name": "SMAN 17 BANDAR LAMPUNG",
+        "tessellate": -1,
+        "extrude": 0,
+        "visibility": 0,
+        "Alamat_Sekolah": "Jl. Soekarno Hatta, Pidada, Panjang, Bandar Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3248168088665,
+          -5.463241458847338,
+          0
+        ]
+      }
+    }
+  ]
+}
